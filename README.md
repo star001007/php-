@@ -34,17 +34,20 @@ PHP5.4开始，你可以不需要安装配置一个成熟的web服务器，比�
 
 ### Mac安装
 >备注：苹果的系统OS X操作系统是基于Unix的，如果你使用Linux系统，同样使用
+
 OS X开始预装PHP，不过他们的版本会落后点，最新的版本是5.5.9。
 我们当然建议是5.6，下面是多种安装方式：
 
 #### 通过Homebrew安装
 >备注：仅适用于苹果系统
+
 [Homebrew](http://brew.sh/)是苹果系统OS X的强大的包管理工具，可以帮助你很容易的安装PHP和其他的扩展。[Homebrew PHP](https://github.com/Homebrew/homebrew-php#installation)是一个很好的仓库来帮助你。
 
 这样，你可以使用命令`brew install`来安装PHP5.3,PHP5.4,PHP5.5,PHP5.6，并且通过修改`PATH`环境变量，来很容易的进行切换。
 
 #### 通过phpbrew安装
 >备注：适用于所有linux系统和Mac系统，墙裂建议
+
 [phpbrew](https://github.com/phpbrew/phpbrew)是一个安装和管理PHP多个版本的工具。如果多个应用需要不同的版本，那么它很有帮助。
 
 #### 从源代码编译
@@ -68,13 +71,13 @@ PHP社区有大量的包、框架和组件，我们在应用开发中，很多�
 [框架开发组](http://www.php-fig.org/)倡议并提出了一些列的编码风格的提议。其中有PSR-0, PSR-1, PSR-2 和 PSR-4。这些建议已经被很多框架所采用，如： Laravel, Phalcon, Symfony2, Drupal, Zend, CakePHP, phpBB, AWS SDK, FuelPHP, Lithium等等。
 
 理想情况是，大家都使用统一的编码风格，如PSR，或者 PEAE 和 Zend的规范，这样我们在相互学习和使用时将毫无障碍，非常便捷。下面是我们推荐的一些规范：
->* [PSR-0]，[英文版](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md)，[中文版]()
->* [PSR-1]，[英文版](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md)，[中文版]()
->* [PSR-2]，[英文版](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md)，[中文版]()
->* [PSR-4]，[英文版](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader.md)，[中文版]()
->* [PEAR]，[英文版](http://pear.php.net/manual/en/standards.php)
->* [Zend]
->* [Symfony]，[英文版](http://symfony.com/doc/current/contributing/code/standards.html)
+>* PSR-0，[英文版](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md)，[中文版](https://github.com/PizzaLiu/PHP-FIG/blob/master/PSR-0-cn.md)
+>* PSR-1，[英文版](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md)，[中文版](https://github.com/PizzaLiu/PHP-FIG/blob/master/PSR-1-basic-coding-standard-cn.md)
+>* PSR-2，[英文版](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md)，[中文版](https://github.com/PizzaLiu/PHP-FIG/blob/master/PSR-2-coding-style-guide-cn.md)
+>* PSR-4，[英文版](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader.md)，[中文版](https://github.com/PizzaLiu/PHP-FIG/blob/master/PSR-4-autoloader-cn.md)
+>* PEAR，[英文版](http://pear.php.net/manual/en/standards.php)
+>* Zend
+>* Symfony，[英文版](http://symfony.com/doc/current/contributing/code/standards.html)
 
 你可以使用`[PHP CodeSniffer](http://pear.php.net/package/PHP_CodeSniffer/)`来检测上述的规范，Sublime Text2也有专门的插件来检测。
 
